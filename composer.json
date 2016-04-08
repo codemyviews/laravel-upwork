@@ -1,0 +1,28 @@
+{
+    "name": "codemyviews/upwork-laravel",
+    "description": "A wrapper around upwork/php-upwork library",
+    "homepage": "https://github.com/codemyviews/upwork-laravel",
+    "keywords":
+        [
+            "upwork",
+            "php",
+            "laravel"
+        ],
+    "authors": [
+        {
+            "name": "Ivan Kulikov",
+            "email": "ikoolik@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "upwork/php-upwork": "^1.0"
+
+    },
+    "autoload": {
+        "psr-0": {
+            "CodeMyViews\\Upwork\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
